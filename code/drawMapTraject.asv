@@ -1,0 +1,15 @@
+function  ansImg=drawMapTraject(img1,img2)
+[~,~,img1]=lable(img1);
+[~,~,img2]=lable(img2);
+
+img1=
+
+img1=reshape_1(img1);
+img2=reshape_2(img2);
+subplot(121);
+imshow(img1);
+subplot(122);
+imshow(img2);
+ansImg=buildMap(img1,img2);
+imshow(ansImg);
+end

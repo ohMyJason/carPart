@@ -1,0 +1,27 @@
+function ansImg=drawTrajectory(pt)
+x1=pt(1);
+y1=pt(2);
+
+x2=pt(1)-1;
+y2=pt(2)-1;
+
+x3=pt(1)-1;
+y3=pt(2);
+
+x4=pt(1)-1
+y4=pt(2)+1;
+
+x5=pt(1)
+y5
+
+x6
+y6
+
+x3
+y3
+
+x3
+y3
+ansImg=zeros(544,960);
+
+end
